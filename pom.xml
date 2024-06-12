@@ -38,6 +38,20 @@
 			<artifactId>mvcspring</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		
+		 <!-- Hibernate Entity Manager -->
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-entitymanager</artifactId>
+    </dependency>
+    
+    <!-- Java Persistence API (JPA) -->
+    <dependency>
+        <groupId>javax.persistence</groupId>
+        <artifactId>javax.persistence-api</artifactId>
+        <version>2.2</version>
+    </dependency>
+		
 	</dependencies>
 
 	<build>
